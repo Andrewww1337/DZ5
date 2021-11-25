@@ -1,0 +1,328 @@
+*{margin: 0;
+padding: 0;}
+.deder{
+    display: flex;
+    flex-direction: row;
+    background:#2E2F3A;
+    justify-content:space-between;
+    height: 50px;
+}
+.dideder{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+
+}
+li{
+    margin:15px 0 12px 20px;
+    list-style-type: none;
+    border-left: rgb(245, 143, 60) 2px solid;
+    padding-left: 5px;
+
+}
+
+.nat{
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+i{
+    margin:10px 5px 15px 5px;
+    color: rgb(245, 143, 60);
+    font-size: 25px;
+}
+.logo{
+    margin: 12px 0 12px 5px;
+    color: rgb(245, 143, 60);
+
+}
+
+.gap{
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px 210px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    position: relative;
+	margin: 0 auto;
+    width: 1090px;
+    margin-top: 5px;
+  
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/melbrooks1-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://www.media4.hw-static.com/media/2021/07/twilightcollage1-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.box3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(https://img.youtube.com/vi/PTfPWxjgjoM/hqdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.n{
+    width: px;
+    height: 200px;
+}
+.box4 {
+    
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/ghostbustersafterlife1-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box5 {
+    
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/thetenderbar1-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box6 {
+    
+    background-image: url(https://www.media3.hw-static.com/media/2021/11/denise_downer_web-copy-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box7 {
+    
+    background-image: url(https://www.media1.hw-static.com/media/2021/10/hallowwitchyskull-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box8 {
+    
+    background-image: url(https://www.media3.hw-static.com/media/2021/10/lnis1web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cha{
+    width: 1090px;
+    background: #484B52;
+    text-align: center;
+    position: relative;
+	margin: 0 auto;
+    color:white;
+    border: 2px solid rgb(245, 143, 60);
+    font-family: sans-serif;
+    font-size: 18px;
+    
+    
+
+}
+.gla{
+	margin: 70px 0;
+}
+.tex{
+    font-size: 1.5em;
+    margin: 0 3px 0 3px;
+    
+}
+.tel{
+    font-size: 1.2em;
+    margin: 0 3px 0 3px;
+}
+.tes{
+    font-size: 1em;
+    margin: 0 3px 0 3px;
+}
+.colwh{
+    color: white;
+}
+.textbown{
+    display: grid;
+    align-items: end;
+}
+.nog{
+    display: grid;
+    grid-template-columns: 330px 330px;
+    grid-auto-rows: minmax(230px, auto);
+    grid-auto-columns: minmax(350px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    position: relative;
+	
+    margin-left: 20px;
+    margin-top: 20px;
+  
+}
+.box11 {
+    background-image: url(https://www.media2.hw-static.com/media/2021/10/pittsburghday-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+.twoz{
+    
+    padding: 30px 0 10px 0;
+    border-bottom: solid 2px rgb(196, 196, 196);
+    color: rgb(245, 143, 60);
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.necl{
+width: 700px;
+margin: 30px 0 0 250px;
+}
+.box12 {
+    background-image: url(https://www.media3.hw-static.com/media/2021/11/kingrich2-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+.box13 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/ghostbustersafterlife1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+
+.box14 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/thetenderbar1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;}
+.box15 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/ladygagahog1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;}
+.box16 {
+    background-image: url(https://www.media2.hw-static.com/media/2021/10/pittsburghday-web-1800x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+.box17 {
+    background-image: url(https://www.media3.hw-static.com/media/2021/11/theprouderfamily1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}.box18 {
+    background-image: url(https://www.media3.hw-static.com/media/2021/11/miamisunset1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}.box19 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/hsha1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}.box110 {
+    background-image: url(https://www.media3.hw-static.com/media/2021/11/chloezhao1-web-325x216.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}.box111 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/11/best_of_hollywood_halloween_costumes-325x216.png);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+.box112 {
+    background-image: url(https://www.media4.hw-static.com/media/2021/09/2021-tony-awards-325x216.png);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+}
+
+
+
+.pollo{
+    height: 35px;
+    background-color: #3f4440;
+    margin-top: 70px;
+}
+.marquee {
+    height: 20px;
+    background:#4e4e4e ;
+}
+ 
+.hhh {
+    font-size: 15px;
+    color: honeydew;
+    margin-left: 25px;
+}
+.foo{
+    background-color: #2E2F3A;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px max-content;
+    padding-top: 20px;
+}
+
+.cfo{
+    color: rgb(245, 143, 60);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0;
+}
+
+.nll{
+    margin: 5px 0 0 0;
+    border-left: #2e2f3a;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+.poo{
+    display: grid;
+    grid-template-columns: 170px 170px;   
+}
+    
+
+.sss{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-items: center;
+    grid-column-start: 4;
+    width: 300px;
+}
+.it{width: 250px;
+    padding: 10px 5px;
+    border: 1px colid rgb(194, 194, 194);
+    font-size: 13px;
+}
+.pb{
+    
+    font-size:15px;
+    color: white;
+   height: 30px;
+    width: 265px;
+    border:none;
+    background-color:rgb(245, 143, 60);
+    border-radius: 1px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.tp{
+    color: rgb(245, 143, 60);
+    font-weight: bold;
+    width: 250px;
+    font-size: 15px;
+    margin: 25px 25px 50px 25px;
+}
